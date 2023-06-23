@@ -11,6 +11,7 @@ public class ExchangeRep {
 
     @PostConstruct
     void base() {
+        map.put("TNG", 425.0);
         map.put("RUB", 80.0);
         map.put("USD", 1.0);
         map.put("EUR", 0.91);
