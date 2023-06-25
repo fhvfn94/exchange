@@ -22,4 +22,8 @@ public class ExchangeController {
     public String changeToUSD(@PathVariable("name") String name, @PathVariable("currency")Double currency) {
         return exchangeService.changeToUSD(name, currency);
     }
+    @GetMapping("getAllCurrency")
+    public String getAllCurrency() {
+        return exchangeService.getAllCurrency();
+    }
 }

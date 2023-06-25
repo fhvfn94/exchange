@@ -33,4 +33,8 @@ public class ExchangeRep {
         }
         return "Нет такой валюты";
     }
+
+    public String getAllCurrency() {
+        return map.toString();
+    }
 }
